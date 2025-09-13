@@ -1,0 +1,57 @@
+# PinkFlow
+
+**Status:** Experimental  
+**PersistID:** pinkflow-0001  
+**DAOContext:** Pending  
+**emotionalTag:** growth  
+
+---
+
+## 🌐 Overview
+PinkFlow is a process-orchestration layer for partners and collaborators who don’t yet have technical infrastructure.  
+It acts as a "fresh coat" system: onboarding them through streamlined pathways, running them through MBTQ.dev’s validation, and giving them clean outputs they can use to integrate back into the ecosystem.  
+
+Think of PinkFlow as a **transitional wrapper** — it makes messy external inputs flow into Deaf-First, standardized, compliant processes.  
+
+---
+
+## 🧩 Role in Ecosystem
+- **Domain:** MBTQ Core Services  
+- **Pathway Phase:** Idea → Build (transitional tool)  
+- **Primary Consumers:** Partners, Non-technical collaborators  
+- **Connected Services:** 360Magicians, PinkSync, DeafAuth  
+
+---
+
+## 📂 Structure
+_Currently empty._  
+When built, will likely include:  
+- `/schemas` → Flow definitions  
+- `/services` → Wrappers for validation + partner onboarding  
+- `/routers` → API endpoints for external submission  
+
+---
+
+## ⚙️ Deployment
+- **Backend:** To be defined (likely FastAPI or Supabase edge functions)  
+- **Infra:** Google Cloud Run / Vercel (review relevance)  
+- **DB:** Optional (could rely on Supabase playground for prototyping)  
+- **CI/CD:** GitHub Actions  
+
+---
+
+## 🔗 Relevant Links
+- **Org Home:** [MBTQ.dev](https://mbtq.dev)  
+- **Ecosystem Context:** Acts as partner-facing intake flow  
+
+---
+
+## 🧠 Emotional Context
+PinkFlow is the doorway for others to join the vision.  
+It carries the **growth** tag: transforming external chaos into Deaf-first order, helping partners align with MBTQ’s accessible, compliant design.  
+
+---
+
+## 📜 License
+TBD
+```
