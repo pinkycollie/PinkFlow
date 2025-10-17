@@ -1,0 +1,40 @@
+Stage 1: SPA / Browser Layer
++--------------------------+
+|        User UI           |
+|  (React / Next.js SPA)   |
+|  - Deaf-first visuals    |
+|  - State management      |
+|  - HTTP requests         |
++-----------+--------------+
+            |
+            v
+Stage 2: Flask Transistor Layer (Dev)
++--------------------------+
+|   Flask App (sync)       |
+|  - @app.route endpoints  |
+|  - Parse request.json    |
+|  - Parse request.args    |
+|  - Parse request.form    |
+|  - Return jsonify()      |
+|  - Temporary adapter     |
++-----------+--------------+
+            |
+            v
+Stage 3: AI Layer (Gemini / FastAPI)
++--------------------------+
+|       Gemini AI          |
+|  - NLP / GPT / AI logic  |
+|  - GPU / TPU processing  |
+|  - Structured JSON output|
+|  - Optional async for high concurrency
++-----------+--------------+
+            |
+            v
+Stage 4: Response / Rendering
++--------------------------+
+|      SPA Receives        |
+|  - JSON / AI output      |
+|  - Updates UI visuals    |
+|  - Optional templates    |
+|  - Deaf-first presentation
++--------------------------+
